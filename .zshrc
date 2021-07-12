@@ -1,15 +1,9 @@
-export TERM=xterm-256color
+export ZSH=$HOME/.oh-my-zsh
 
-source ~/.antigen/antigen.zsh
+ZSH_THEME="robbyrussell"
 
-antigen use oh-my-zsh
+plugins=(git)
 
-antigen bundle git
-antigen bundle ssh-agent
+source $ZSH/oh-my-zsh.sh
 
-antigen theme robbyrussell
-
-antigen apply
-
-alias ls="LC_COLLATE=C ls -lGA --color=auto"
-alias k="kubectl"
+alias ls="ls -lGA"
