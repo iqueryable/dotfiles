@@ -4,6 +4,7 @@
   "gitlens.codeLens.enabled": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "Material Theme Ocean High Contrast",
   "[typescript]": {
     "editor.codeActionsOnSave": {
       "source.organizeImports": true
