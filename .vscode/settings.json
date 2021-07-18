@@ -5,6 +5,7 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "workbench.colorTheme": "Material Theme Ocean High Contrast",
+  "workbench.startupEditor": "none",
   "[typescript]": {
     "editor.codeActionsOnSave": {
       "source.organizeImports": true
