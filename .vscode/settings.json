@@ -6,6 +6,9 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "workbench.colorTheme": "Material Theme Ocean High Contrast",
   "workbench.startupEditor": "none",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[typescript]": {
     "editor.codeActionsOnSave": {
       "source.organizeImports": true
