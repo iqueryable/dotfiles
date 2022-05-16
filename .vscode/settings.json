@@ -1,25 +1,54 @@
 {
+  "csharp.referencesCodeLens.enabled": false,
+  "diffEditor.ignoreTrimWhitespace": false,
   "editor.formatOnSave": true,
-  "editor.renderWhitespace": "all",
-  "gitlens.codeLens.enabled": false,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "workbench.colorTheme": "Material Theme Ocean High Contrast",
-  "workbench.startupEditor": "none",
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.codeActionsOnSave": {
-      "source.organizeImports": true
-    }
-  },
   "editor.inlineSuggest.enabled": true,
+  "editor.renderWhitespace": "all",
   "github.copilot.enable": {
     "*": true,
     "yaml": true,
     "plaintext": true,
-    "markdown": false
+    "markdown": true
   },
-  "csharp.referencesCodeLens.enabled": false
+  "gitlens.advanced.messages": {
+    "suppressRebaseSwitchToTextWarning": true
+  },
+  "gitlens.codeLens.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "terraform.languageServer": {
+    "external": true,
+    "args": ["serve"]
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "Material Theme Ocean High Contrast",
+  "workbench.editorAssociations": {
+    "git-rebase-todo": "default"
+  },
+  "workbench.startupEditor": "none",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.formatAll.terraform": true
+    }
+  },
+  "[terraform-vars]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.formatAll.terraform": true
+    }
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  }
 }
