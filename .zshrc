@@ -21,8 +21,6 @@ bindkey '[D' backward-word
 # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 # [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-alias python="python3"
-
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
-# export PATH="$HOME/Library/Python/3.8/bin:$PATH"
+export PATH="/opt/homebrew/opt/python@3.10/bin:$PATH"
