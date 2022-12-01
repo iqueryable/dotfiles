@@ -4,6 +4,7 @@
   "editor.formatOnSave": true,
   "editor.inlineSuggest.enabled": true,
   "editor.renderWhitespace": "all",
+  "eslint.alwaysShowStatus": true,
   "github.copilot.enable": {
     "*": true,
     "yaml": true,
@@ -15,10 +16,8 @@
   },
   "gitlens.codeLens.enabled": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "terraform.languageServer": {
-    "external": true,
-    "args": ["serve"]
-  },
+  "terminal.external.osxExec": "warp.app",
+  "terraform.languageServer.enable": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "workbench.colorTheme": "Material Theme Ocean High Contrast",
   "workbench.editorAssociations": {
